@@ -36,7 +36,7 @@ class SMS:
 if __name__ == '__main__':
    
     SMS().send()
- app.run(debug=True)
+    app.run(debug=True)
 app = Flask(__name__)
 
 @app.route('/')
