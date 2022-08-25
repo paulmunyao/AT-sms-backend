@@ -34,4 +34,5 @@ class SMS:
 if __name__ == '__main__':
     SMS().send()
 
-    
+from flask import Flask
+app = Flask(__name__)   
