@@ -4,8 +4,6 @@ from flask import Flask
 import africastalking
 
 
-
-
 class SMS:
     def __init__(self):
         # Set your app credentials
@@ -36,7 +34,7 @@ class SMS:
 
 
 if __name__ == '__main__':
-     app.run(debug=True)
+    app.run(debug=True)
     SMS().send()
 
 app = Flask(__name__)
