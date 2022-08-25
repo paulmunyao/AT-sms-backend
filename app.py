@@ -1,7 +1,7 @@
 from __future__ import print_function
 from flask import Flask
 
-# import africastalking
+import africastalking
 
 
 class SMS:
