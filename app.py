@@ -6,7 +6,7 @@ import africastalking
 class SMS:
     def __init__(self):
         # Set your app credentials
-        self.username = ""
+        self.username = "YOUR_USERNAME"
         self.api_key = ""
 
         # Initialize the SDK
