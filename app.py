@@ -3,7 +3,9 @@ from flask import Flask
 
 import africastalking
 
-
+@app.route('/')
+def hello():
+    return 'Hello, World!'
 
 
 class SMS:
