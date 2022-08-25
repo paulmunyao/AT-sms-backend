@@ -5,7 +5,7 @@ import africastalking
 class SMS:
     def __init__(self):
 		# Set your app credentials
-	    self.username = "YOUR_USERNAME"
+	    self.username = "edaktari"
         self.api_key = "YOUR_API_KEY"
 
         # Initialize the SDK
@@ -16,7 +16,7 @@ class SMS:
 
     def send(self):
             # Set the numbers you want to send to in international format
-            recipients = ["+254713YYYZZZ", "+254733YYYZZZ"]
+            recipients = ["+254732841879", "+254705212848"]
 
             # Set your message
             message = "I'm a lumberjack and it's ok, I sleep all night and I work all day";
