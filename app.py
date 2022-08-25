@@ -34,8 +34,6 @@ class SMS:
 
 
 if __name__ == '__main__':
-   
     SMS().send()
-   
-app = Flask(__name__)
 
+app = Flask(__name__)
