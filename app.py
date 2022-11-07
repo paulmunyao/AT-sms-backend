@@ -3,7 +3,6 @@ from flask import Flask
 
 import africastalking
 
-
 class SMS:
     def __init__(self):
         # Set your app credentials
